@@ -5,3 +5,4 @@
 
 
 Análise de Sentimentos comparando uso do SVM e Bert em dados coletados de avaliações de  um Curso da "Coursera"
+![](Enunciado-do_Projeto.png)
