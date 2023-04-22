@@ -19,6 +19,6 @@ PLN_SVM02.ipynb
 
 ![](/img/SVM-TF-IDF.png)
 
-![](/img/"Imagem da tela interativa com chatGPT.png")
+![]("/img/Imagem da tela interativa com chatGPT.png")
 
 OpenAI_GPT_3_5_turbo.ipynb
