@@ -9,8 +9,14 @@
 
 ![](/img/BERTxSVM-bow-linear.png)
 
+PLN_2_Bert.ipynb
+PLN_SVM02.ipynb
+
 ![](/img/SVM-BOW.png)
 
 ![](/img/SVM-Embeddings.png)
 
 ![](/img/SVM-TF-IDF.png)
+
+![](/img/Imagem da tela interativa com chatGPT.png)
+OpenAI_GPT_3_5_turbo.ipynb
