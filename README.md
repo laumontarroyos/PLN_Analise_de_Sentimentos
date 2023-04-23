@@ -18,6 +18,7 @@ PLN_2_Bert.ipynb
 
 PLN_SVM02.ipynb
 ## Análise de Sentimentos fazendo uso do SVM+BOW
+Para os dados trabalhados nesta classificação, percebe-se não haver grande diferença entre o uso de um kernel linear e outro não linear para os experimentos realizados com a representação do texto pela técnica de "Bag-of_words" (BOW). Dada a similaridade dos resultados alcançados, considerando o F1-score levemente superior e a abordagem de processamento mais simples, entre as duas variações opta-se por escolher o modelo linear.
 ![](/img/SVM-BOW.png)
 
 ## Análise de Sentimentos fazendo uso do SVM+Embeddings
