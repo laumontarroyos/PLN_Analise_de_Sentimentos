@@ -29,10 +29,14 @@ Para os dados trabalhados nesta classificação, não se percebe um grande ganho
 
 ## Análise de Sentimentos fazendo uso do SVM+TF-IDF
 Embora o Projeto não pedisse que fosse avaliada a classificação usando a abordagem TF-IDF, isto é, "term frequency–inverse document frequency", fizemos uso desta outra técnica de representação dos dados textuais também apenas por curiosidade. Como atestam os resultados apresentados na imagem abaixo, eles ficaram piores do que aqueles alcançados com as outras abordagens. O modelo não conseguiu realizar nenhuma classificação correta para as sentenças de avaliação "ruim" apresentadas no teste do experimento, seja com o kernel linear, seja com o kernel não linear do SVM. Os detalhes da implementação usando o SVM+TF-IDF também estão no arquivo "notebook" "PLN_SVM02.ipynb".
+
 ![](/img/SVM-TF-IDF.png)
 
 
 ## Experimento Bônus: usando o ChatGPT e a API da OpenAI para o GPT 3.5 turbo
+Por fim, para atender à atividade extra de utilizar dados da mesma base coletada no trabalho para experimentar a classificação fazendo uso de "in-context learning", utilizamos duas abordagens: 
+. Uma primeira, consumindo diretamente a API do modelo GPT-3.5-turbo da OpenAI, ou seja, codificando em python chamadas para "openai.ChatCompletion.create", recuperando a resposta ao invocar "choices[0].message.content" a partir do objeto de retorno do primeiro método. Na primeira chamada, as instruções sobre o que se deseja fazer e de que forma processar são passadas, bem assim instruções acerca do formato da resposta desejado. Mais detalhes sobre essa primeira abordagem podem ser conferidos no "notebook" "OpenAI_GPT_3_5_turbo.ipynb", lembrando que é necessário possuir uma conta cadastrada e também gerar uma chave para uso da API da OpenAI. 
+. Já a segunda abordagem utilizada foi a partir da interação direta e on-line com o ChatGPT da mesma OpenAI pelo endereço "https://chat.openai.com/". A imagem abaixo apresenta trecho da primeira tela de interação em que as instruções são passadas diretamente pelo "prompt" ChatGPT.
 
-OpenAI_GPT_3_5_turbo.ipynb
+
 ![](/img/ChatGPT.png)
