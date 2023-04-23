@@ -28,7 +28,7 @@ Para os dados trabalhados nesta classificação, não se percebe um grande ganho
 
 
 ## Análise de Sentimentos fazendo uso do SVM+TF-IDF
-
+Embora o Projeto não pedisse que fosse avaliada a classificação usando a abordagem TF-IDF, isto é, "term frequency–inverse document frequency", fizemos uso desta outra técnica de representação dos dados textuais também apenas por curiosidade. Como atestam os resultados apresentados na imagem abaixo, eles ficaram piores do que aqueles alcançados com as outras abordagens. O modelo não conseguiu realizar nenhuma classificação correta para as sentenças de avaliação "ruim" apresentadas no teste do experimento, seja com o kernel linear, seja com o kernel não linear do SVM. Os detalhes da implementação usando o SVM+TF-IDF também estão no arquivo "notebook" "PLN_SVM02.ipynb".
 ![](/img/SVM-TF-IDF.png)
 
 
