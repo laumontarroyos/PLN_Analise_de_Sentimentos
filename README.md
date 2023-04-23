@@ -14,12 +14,12 @@ Como pode ser visto na imagem abaixo, a abordagem fazendo uso do Bert supera em 
 
 ![](/img/BERTxSVM-bow-linear.png)
 
-PLN_2_Bert.ipynb
 
-PLN_SVM02.ipynb
 ## Análise de Sentimentos fazendo uso do SVM+BOW
-Para os dados trabalhados nesta classificação, percebe-se não haver grande diferença entre o uso de um kernel linear e outro não linear para os experimentos realizados com a representação do texto pela técnica de "Bag-of_words" (BOW). Dada a similaridade dos resultados alcançados, considerando o F1-score levemente superior e a abordagem de processamento mais simples, entre as duas variações opta-se por escolher o modelo linear.
+Para os dados trabalhados nesta classificação, percebe-se não haver grande diferença entre o uso de um kernel linear e outro não linear para os experimentos realizados com a representação do texto pela técnica de "Bag-of_words" (BOW). Dada a similaridade dos resultados alcançados, considerando o F1-score levemente superior e a abordagem de processamento mais simples, entre as duas variações opta-se por escolher o modelo linear. Os detalhes da implementação usando o SVM+BOW estão no arquivo "notebook" "PLN_SVM02.ipynb".
+
 ![](/img/SVM-BOW.png)
+
 
 ## Análise de Sentimentos fazendo uso do SVM+Embeddings
 ![](/img/SVM-Embeddings.png)
