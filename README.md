@@ -8,7 +8,7 @@ Os dados foram armazenados no arquivo "Coursera.csv" e, em um segundo momento, p
 
 (*) © 2023 Coursera Inc. All rights reserved.
 
-## Análise de Sentimentos comparando uso do SVM e BERT
+## Análise de Sentimentos comparando uso do BERT e da SVM
 
 Como pode ser visto na imagem abaixo, a abordagem fazendo uso do Bert supera em muito o desempenho alcançado com a melhor variação do SVM aplicada aos dados coletados. Notadamente, infere-se que o fato do Bert ser um modelo pré-treinado, no qual os dados coletados foram utilizados apenas para realizar um "fine-tunning", aparenta ter feito toda a diferença. Mesmo atribuindo o conceito "ruim" para as avaliações de uma a três estrelas, será possível perceber pelos resultados apresentados mais adiante que todos os experimentos com variações do SVM não são satisfatórios para classificar uma avaliação como "ruim". Observa-se, no caso do Bert, que a acurácia é alçada a níveis mais elevados que os 92% do SVM, chegado a 97%. O F1-score é superior  para uma "boa" avaliação, 0.98 a 0.96, e é extremamente melhor no F1-score para uma avaliação "ruim", 0.82 contra os 0.08 do SVM. Os detalhes da implementação usando o BERT estão no arquivo "notebook" "PLN_2_Bert.ipynb", enquanto que os experimentos feitos com o SVM estão no arquivo "notebook" "PLN_SVM02.ipynb".
 
