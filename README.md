@@ -22,6 +22,8 @@ Para os dados trabalhados nesta classificação, percebe-se não haver grande di
 
 
 ## Análise de Sentimentos fazendo uso do SVM+Embeddings
+Para os dados trabalhados nesta classificação, não se percebe um grande ganho no uso da representação textual com "Embeddings", quando comparamos o melhor resultado alcançado com aqueles pontuados ao usarmos "Bag-of-words". Na realidade, ambos são muito similares e foram os melhores resultados dos experimentos com SVM. Optou-se por usar o SVM+BOW com o BERT por darmos preferência ao modelo mais simples sempre que os resultados se assemelham. Considerando a variação SVM+Embeddings, o resultado com o modelo não linear foi ligeiramente superior ao alcançado com o Linear. Os detalhes da implementação usando o SVM+Embeddings também estão no arquivo "notebook" "PLN_SVM02.ipynb".
+
 ![](/img/SVM-Embeddings.png)
 
 ## Análise de Sentimentos fazendo uso do SVM+TF-IDF
